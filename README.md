@@ -96,7 +96,7 @@ Use Active Record association macros and Active Record query methods where appro
 - `Exam#class_average`
   - returns the class average grade for an exam (the average of all the exam's studentExams)
 - `Exam.used_exams`
-  - retuns an array of exams that have been taken by more than 0 students
+  - returns an array of exams that have been taken by more than 0 students
 - `Exam.lowest_average`
   - returns the exam instance that has been used with the lowest class average grade
 - `Exam.drop_lowest_average`
