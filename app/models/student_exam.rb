@@ -9,7 +9,7 @@ class StudentExam < ActiveRecord::Base
     def questions_correct_ratio
         total = self.exam.total_questions
         grade = self.grade
-        correct = grade * total
+        correct = grade * total / 100
         "#{correct} questions correct out of #{total} questions total"
     end
 end
